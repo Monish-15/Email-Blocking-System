@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+joblib
+flask
+ngrok
+python -m pyngrok config add-authtoken 37vjggvpS3HhjE4Oh6lEkVf84MR_6LpwinDAbfRPjR3WpyRkQ
+37vjggvpS3HhjE4Oh6lEkVf84MR_6LpwinDAbfRPjR3WpyRkQ
+
+
+ngrok config add-authtoken 37vjggvpS3HhjE4Oh6lEkVf84MR_6LpwinDAbfRPjR3WpyRkQ
