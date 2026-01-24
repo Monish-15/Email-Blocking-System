@@ -4,12 +4,13 @@ import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
+print("Loading dataset...")
+
 data = pd.read_csv("dataset.csv")
 
 def clean(text):
     text = text.lower()
-    text = re.sub(r"[^a-z0-9\s]", " ", text)
-    return text
+    return re.sub(r"[^a-z0-9\s]", " ", text)
 
 data["text"] = data["text"].apply(clean)
 
